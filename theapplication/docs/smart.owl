@@ -1,0 +1,600 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Accessoires -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Accessoires">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Andriod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Andriod">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#OS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Antenna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Antenna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Bag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Bag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Accessoires"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Bluetooth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Bluetooth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Bright -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Bright">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Browser -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Browser">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Build -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Build">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Durability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#CPU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#CPU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Camera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Camera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Card_Slot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Card_Slot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#External_memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Case -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Case">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Accessoires"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Dual_camera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Dual_camera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Camera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Dual_core_processor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Dual_core_processor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Durability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Durability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#EDGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#EDGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Email -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Email">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Entertainment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Entertainment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#External_memory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#External_memory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#GPRS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#GPRS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#GPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#GPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Games -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Games">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Entertainment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#IM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#IM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#IOS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#IOS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#OS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Internal_Memory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Internal_Memory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#MMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#MMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Mega_pixel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Mega_pixel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Camera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Memory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Memory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Message -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Message">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Micro_SD_card -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Micro_SD_card">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#External_memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Music -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Music">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Entertainment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#OS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#OS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Office -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Office">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Photo_quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Photo_quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Camera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Radio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Radio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Entertainment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Reception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Reception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Responsiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Responsiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#SD_card -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#SD_card">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#External_memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#SMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#SMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen_color -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen_color">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen_size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen_size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Single_core_processor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Single_core_processor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Speed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Social_network -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Social_network">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Software -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Software">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Speaker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Speaker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Voice_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Speed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Speed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#CPU"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Symbian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Symbian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#OS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Talk_time -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Talk_time">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Battery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Touch_screen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Touch_screen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Screen"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Vibrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Vibrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Video_quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Video_quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Camera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Voice_Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Voice_Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Smartphone"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Voice_Recognition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Voice_Recognition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Applications"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Volume -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Volume">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Voice_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#WIFI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#WIFI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Web">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Communication"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#General"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#2G -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#2G">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#3G -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#3G">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#4G -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#4G">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bob/ontologies/2018/1/untitled-ontology-3#Connectivity"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

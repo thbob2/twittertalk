@@ -1,0 +1,743 @@
+{
+    "start": "2018-05-17 00:01:04.806838",
+    "stop": "2018-05-17 17:59:57.445141",
+    "concepts": [
+        {
+            "name": "Smartphone",
+            "subclass_of": "",
+            "subClasses": [
+                "Accessoires",
+                "Applications",
+                "Battery",
+                "Camera",
+                "Communication",
+                "Connectivity",
+                "CPU",
+                "Durability",
+                "Entertainment",
+                "General",
+                "Memory",
+                "OS",
+                "Screen",
+                "Voice_Quality"
+            ],
+            "pourNeg": 21.96,
+            "pourPos": 78.04,
+            "pos": 572,
+            "neg": 161
+        },
+        {
+            "name": "Accessoires",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Bag",
+                "Case"
+            ],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Applications",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Software",
+                "Browser",
+                "GPS",
+                "Office",
+                "Voice_Recognition"
+            ],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Battery",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Battery_life",
+                "Duration",
+                "Talk_time"
+            ],
+            "pourNeg": 72.04,
+            "pourPos": 27.96,
+            "pos": 59,
+            "neg": 152
+        },
+        {
+            "name": "Software",
+            "subclass_of": "Applications",
+            "subClasses": [],
+            "pourNeg": 86.36,
+            "pourPos": 13.64,
+            "pos": 3,
+            "neg": 19
+        },
+        {
+            "name": "Camera",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Dual_camera",
+                "Mega_pixel",
+                "Photo_quality",
+                "Video_quality"
+            ],
+            "pourNeg": 19.81,
+            "pourPos": 80.19,
+            "pos": 838,
+            "neg": 207
+        },
+        {
+            "name": "Communication",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Social_network",
+                "Web"
+            ],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Connectivity",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "2G",
+                "3G",
+                "4G",
+                "Antenna",
+                "Bluetooth",
+                "EDGE",
+                "GPRS",
+                "Reception",
+                "WIFI"
+            ],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "CPU",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Speed"
+            ],
+            "pourNeg": 42.55,
+            "pourPos": 57.45,
+            "pos": 54,
+            "neg": 40
+        },
+        {
+            "name": "Durability",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Build"
+            ],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "Entertainment",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Games",
+                "Music",
+                "Radio"
+            ],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "General",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Color",
+                "Design",
+                "Size",
+                "Vibrator",
+                "Weight"
+            ],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Memory",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Internal_Memory",
+                "External_memory"
+            ],
+            "pourNeg": 18.9,
+            "pourPos": 81.1,
+            "pos": 236,
+            "neg": 55
+        },
+        {
+            "name": "OS",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Andriod",
+                "IOS",
+                "Symbian"
+            ],
+            "pourNeg": 16.11,
+            "pourPos": 83.89,
+            "pos": 125,
+            "neg": 24
+        },
+        {
+            "name": "Screen",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Bright",
+                "Responsiveness",
+                "Screen_color",
+                "Touch_screen",
+                "Screen_size"
+            ],
+            "pourNeg": 11.75,
+            "pourPos": 88.25,
+            "pos": 413,
+            "neg": 55
+        },
+        {
+            "name": "Voice_Quality",
+            "subclass_of": "Smartphone",
+            "subClasses": [
+                "Speaker",
+                "Volume"
+            ],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Bag",
+            "subclass_of": "Accessoires",
+            "subClasses": [],
+            "pourNeg": 100.0,
+            "pourPos": 0.0,
+            "pos": 0,
+            "neg": 8
+        },
+        {
+            "name": "Case",
+            "subclass_of": "Accessoires",
+            "subClasses": [],
+            "pourNeg": 31.89,
+            "pourPos": 68.11,
+            "pos": 803,
+            "neg": 376
+        },
+        {
+            "name": "Browser",
+            "subclass_of": "Applications",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "GPS",
+            "subclass_of": "Applications",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Office",
+            "subclass_of": "Applications",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Voice_Recognition",
+            "subclass_of": "Applications",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Battery_life",
+            "subclass_of": "Battery",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Duration",
+            "subclass_of": "Battery",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Talk_time",
+            "subclass_of": "Battery",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Dual_camera",
+            "subclass_of": "Camera",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Mega_pixel",
+            "subclass_of": "Camera",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Photo_quality",
+            "subclass_of": "Camera",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Video_quality",
+            "subclass_of": "Camera",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Social_network",
+            "subclass_of": "Communication",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Web",
+            "subclass_of": "Communication",
+            "subClasses": [
+                "Email",
+                "IM",
+                "Message",
+                "SMS",
+                "MMS"
+            ],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 17,
+            "neg": 0
+        },
+        {
+            "name": "Email",
+            "subclass_of": "Web",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 11,
+            "neg": 0
+        },
+        {
+            "name": "IM",
+            "subclass_of": "Web",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 2,
+            "neg": 0
+        },
+        {
+            "name": "Message",
+            "subclass_of": "Web",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "SMS",
+            "subclass_of": "Web",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "MMS",
+            "subclass_of": "Web",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "2G",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "3G",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "4G",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 19.1,
+            "pourPos": 80.9,
+            "pos": 470,
+            "neg": 111
+        },
+        {
+            "name": "Antenna",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Bluetooth",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 82.35,
+            "pourPos": 17.65,
+            "pos": 9,
+            "neg": 42
+        },
+        {
+            "name": "EDGE",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 29,
+            "neg": 0
+        },
+        {
+            "name": "GPRS",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Reception",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "WIFI",
+            "subclass_of": "Connectivity",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Speed",
+            "subclass_of": "CPU",
+            "subClasses": [
+                "Single_core_processor",
+                "Dual_core_processor"
+            ],
+            "pourNeg": 12.5,
+            "pourPos": 87.5,
+            "pos": 35,
+            "neg": 5
+        },
+        {
+            "name": "Single_core_processor",
+            "subclass_of": "Speed",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Dual_core_processor",
+            "subclass_of": "Speed",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Build",
+            "subclass_of": "Durability",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 8,
+            "neg": 0
+        },
+        {
+            "name": "Games",
+            "subclass_of": "Entertainment",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "Music",
+            "subclass_of": "Entertainment",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 2,
+            "neg": 0
+        },
+        {
+            "name": "Radio",
+            "subclass_of": "Entertainment",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 25,
+            "neg": 0
+        },
+        {
+            "name": "Color",
+            "subclass_of": "General",
+            "subClasses": [],
+            "pourNeg": 19.21,
+            "pourPos": 80.79,
+            "pos": 471,
+            "neg": 112
+        },
+        {
+            "name": "Design",
+            "subclass_of": "General",
+            "subClasses": [],
+            "pourNeg": 38.35,
+            "pourPos": 61.65,
+            "pos": 82,
+            "neg": 51
+        },
+        {
+            "name": "Size",
+            "subclass_of": "General",
+            "subClasses": [],
+            "pourNeg": 14.75,
+            "pourPos": 85.25,
+            "pos": 185,
+            "neg": 32
+        },
+        {
+            "name": "Vibrator",
+            "subclass_of": "General",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Weight",
+            "subclass_of": "General",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 243,
+            "neg": 0
+        },
+        {
+            "name": "Internal_Memory",
+            "subclass_of": "Memory",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "External_memory",
+            "subclass_of": "Memory",
+            "subClasses": [
+                "Card_Slot",
+                "Micro_SD_card",
+                "SD_card"
+            ],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Card_Slot",
+            "subclass_of": "External_memory",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Micro_SD_card",
+            "subclass_of": "External_memory",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "SD_card",
+            "subclass_of": "External_memory",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Andriod",
+            "subclass_of": "OS",
+            "subClasses": [],
+            "pourNeg": 44.44,
+            "pourPos": 55.56,
+            "pos": 10,
+            "neg": 8
+        },
+        {
+            "name": "IOS",
+            "subclass_of": "OS",
+            "subClasses": [],
+            "pourNeg": 0.0,
+            "pourPos": 100.0,
+            "pos": 1,
+            "neg": 0
+        },
+        {
+            "name": "Symbian",
+            "subclass_of": "OS",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Bright",
+            "subclass_of": "Screen",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Responsiveness",
+            "subclass_of": "Screen",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Screen_color",
+            "subclass_of": "Screen",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Touch_screen",
+            "subclass_of": "Screen",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Screen_size",
+            "subclass_of": "Screen",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        },
+        {
+            "name": "Speaker",
+            "subclass_of": "Voice_Quality",
+            "subClasses": [],
+            "pourNeg": 100.0,
+            "pourPos": 0.0,
+            "pos": 0,
+            "neg": 1
+        },
+        {
+            "name": "Volume",
+            "subclass_of": "Voice_Quality",
+            "subClasses": [],
+            "pourNeg": 0,
+            "pourPos": 0,
+            "pos": 0,
+            "neg": 0
+        }
+    ]
+}

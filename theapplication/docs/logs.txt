@@ -1,0 +1,6 @@
+WARNING: This command does not appear to be running with administrative rights.  Some commands may fail e.g. Start/Stop
+2018-06-07 14:03:06.056+0000 INFO  ======== Neo4j 3.3.2 ========
+2018-06-07 14:03:06.955+0000 INFO  Starting...
+2018-06-07 14:03:16.184+0000 INFO  Bolt enabled on 127.0.0.1:7687.
+2018-06-07 14:03:36.317+0000 INFO  Started.
+2018-06-07 14:03:40.999+0000 INFO  Remote interface available at http://localhost:7474/
