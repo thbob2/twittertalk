@@ -1543,11 +1543,19 @@ if __name__ == '__main__':
 	#window = MainWindow()
 	logapp = logingWindow()
 	user = {'name':"admin",
+<<<<<<< HEAD
 			'pwd': "admin",	
 			ck': "WouN94K3npYkZDHVpHGQDOwyl",
 			'cs': "RQyYPzLRXOA5QMs5OnVP91wAYB4dSnTAd2X5dKXvIr4NKkWY3F",
 			'act': "295286840-5yd7qcXg1WfZplnrb78UYE2CKY1N1MZlLZdsMSSZ",
 			'acs': "E8QWRogAahyutRgdhsqcAdAhrHonzJtF8JLcPpBxylTu5"}
+=======
+	 		'pwd': "admin",	
+	 		'ck': "",
+			'cs': "",
+			'act': "",
+			'acs': ""}
+>>>>>>> bc3973d289672b9e2ea86d178d1c02fc1fc6bed6
 # Authentification grace à la fonction authentif
 	logapp.main()
 	#if logapp.exec_() == QtWidgets.QDialog.Accepted:

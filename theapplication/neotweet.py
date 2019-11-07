@@ -284,6 +284,7 @@ class Neo4j(object):
 		with self._driver.session() as r :
 			return r.read_transaction(self.tx_luser,user)
 #************************************************************************#,
+<<<<<<< HEAD
 if __name__ == '__main__':
 	uri = "bolt://127.0.0.1:7687"
 	user = "thbob"
@@ -322,3 +323,5 @@ if __name__ == '__main__':
 	 #mydic = client.alltweet_list()
 	 #s = json.dumps({'tweets':[o.dump() for o in mydic]},indent=4)
 	 #print(s)
+=======
+>>>>>>> bc3973d289672b9e2ea86d178d1c02fc1fc6bed6

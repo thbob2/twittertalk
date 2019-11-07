@@ -209,12 +209,7 @@ if __name__=="__main__":
     path = "cache/file.json"
     searcher = Searcher()    
     analyser = Analyser()
-    user = {'name':"Boubekeur",
-            'pwd': "2305",  
-            'ck': "WouN94K3npYkZDHVpHGQDOwyl",
-            'cs': "RQyYPzLRXOA5QMs5OnVP91wAYB4dSnTAd2X5dKXvIr4NKkWY3F",
-            'act': "295286840-5yd7qcXg1WfZplnrb78UYE2CKY1N1MZlLZdsMSSZ",
-            'acs': "E8QWRogAahyutRgdhsqcAdAhrHonzJtF8JLcPpBxylTu5"}
+    
 # Authentification grace à la fonction authentif
     agent = TwitterAgent(user["ck"],user['cs'],user["act"],user["acs"])
     api = agent.get_twitter_client()

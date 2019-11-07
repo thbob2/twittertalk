@@ -3,10 +3,7 @@ from tweepy import API
 from tweepy import OAuthHandler
 import tweepy
 import json 
-#consumer_key = "WouN94K3npYkZDHVpHGQDOwyl"
-#consumer_secret = "RQyYPzLRXOA5QMs5OnVP91wAYB4dSnTAd2X5dKXvIr4NKkWY3F"
-#access_token = "295286840-5yd7qcXg1WfZplnrb78UYE2CKY1N1MZlLZdsMSSZ"
-#access_secret = "E8QWRogAahyutRgdhsqcAdAhrHonzJtF8JLcPpBxylTu5"
+
 
 #decorateur de la class sigleton 
 """def singleton(defined_class):
@@ -40,13 +37,5 @@ class TwitterAgent():
 		oauth = OAuth(access_token, access_secret, consumer_key, consumer_secret)
 		return oauth
 
-if __name__ == '__main__':
-	consumer_key = "WouN94K3npYkZDHVpHGQDOwyl"
-	consumer_secret = "RQyYPzLRXOA5QMs5OnVP91wAYB4dSnTAd2X5dKXvIr4NKkWY3F"
-	access_token = "295286840-5yd7qcXg1WfZplnrb78UYE2CKY1N1MZlLZdsMSSZ"
-	access_secret = "E8QWRogAahyutRgdhsqcAdAhrHonzJtF8JLcPpBxylTu5"
-# Authentification grace à la fonction authentif
-	agent = TwitterAgent(consumer_key,consumer_secret,access_token,access_secret)
-	twitter = agent.api.me()
-	print(twitter)
+
 		
