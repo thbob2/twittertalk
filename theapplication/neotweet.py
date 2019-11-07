@@ -296,21 +296,10 @@ if __name__ == '__main__':
 	#now = time.localtime()
 	#date = "{}-{}-{}".format(now.tm_year,now.tm_mon,now.tm_mday)
 	#time = "{}:{}:{}".format(now.tm_hour,now.tm_min,now.tm_sec)
-	#client.delete_all()
-	user = {'name':"admin",
-	 		'pwd': "admin",	
-	 		'ck': "WouN94K3npYkZDHVpHGQDOwyl",
-			'cs': "RQyYPzLRXOA5QMs5OnVP91wAYB4dSnTAd2X5dKXvIr4NKkWY3F",
-			'act': "295286840-5yd7qcXg1WfZplnrb78UYE2CKY1N1MZlLZdsMSSZ",
-			'acs': "E8QWRogAahyutRgdhsqcAdAhrHonzJtF8JLcPpBxylTu5"}
-	
+
 	client.createUser(user["name"],user["pwd"],user["ck"],user["cs"],user["act"],user["acs"])
 	print(client.load_user_mod("admin"))
-	#print(client.loadresult("Boubekeur","2018-5-30","11:19:12","Galaxy S8"))
-	 #client.deleteAnalyse(user['name'],"2018-5-2","17:44:53")
-	 #s = client.loadAnalyses(user['name']) 
-	 #for e in s : 
-	 #	print(e)
+
 	 
 	 #client.importresult(user["name"],file,date,time,'Galaxy S8')
 	 #d = "2018-5-2"
