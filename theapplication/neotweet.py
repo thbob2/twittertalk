@@ -116,8 +116,8 @@ class Neo4j(object):
 	def tx_mchuser(cls,tx):
 		try:
 			tx.run("match(a:Analyse),(c:Concepte),(m:Model),(u:User) "
-				   "where (u.name = a.user AND m.date = a.day AND m.time=a.time) AND (m.name = c.model and m.date= c.date and m.time= c.time and  NOT(c.name='Smartphone')) "
-				   " merge(u)-[:effected]->(a) "
+					"where (u.name = a.user AND m.date = a.day AND m.time=a.time) AND (m.name = c.model and m.date= c.date and m.time= c.time and  NOT(c.name='Smartphone')) "
+					"merge(u)-[:effected]->(a) "
 					"merge (a)-[:concerne]->(m) "
 					"merge(m)-[:contains]->(c) " )
 		except Neo.ClientError:
@@ -132,37 +132,37 @@ class Neo4j(object):
 	@classmethod
 	def tx_loadmod(cls,tx,user,date,time,model):
 		try:
-		 	models = tx.run("match (c:Concepte)<-[:contains]-(m:Model{name: $model })<-[:concerne]-(a:Analyse{ day: $date,time: $time})<-[:effected]-(u:User{name: $user}) "
+			models = tx.run("match (c:Concepte)<-[:contains]-(m:Model{name: $model })<-[:concerne]-(a:Analyse{ day: $date,time: $time})<-[:effected]-(u:User{name: $user}) "
 							"return m.name,c.name,c.pos,c.neg,c.pourPos,c.pourNeg "
 							"ORDER BY m.name",user=user,date=date,time=time,model=model)
-		 	res = list()
-		 	temp = dict()
-		 	result = dict()
-		 	smart_phone = {}
-		 	for record in models:
-		 		result["model"] = record["m.name"]
-		 		temp["name"]= record["c.name"]
-		 		temp["pos"] = record["c.pos"]
-		 		temp["neg"] = record["c.neg"]
-		 		temp["pourPos"] = record["c.pourPos"]
-		 		temp["pourNeg"] = record["c.pourNeg"]
-		 		res.append(temp)
-		 		temp = {}
-		 	result["concepts"] = res
-		 	head = tx.run("match(c:Concepte)-[:is]->(m:Model{name:$model})<-[:concerne]-(a:Analyse{day:$date,time:$time})<-[:effected]-(u:User{name: $user}) "
+			res = list()
+			temp = dict()
+			result = dict()
+			smart_phone = {}
+			for record in models:
+				result["model"] = record["m.name"]
+				temp["name"]= record["c.name"]
+				temp["pos"] = record["c.pos"]
+				temp["neg"] = record["c.neg"]
+				temp["pourPos"] = record["c.pourPos"]
+				temp["pourNeg"] = record["c.pourNeg"]
+				res.append(temp)
+				temp = {}
+			result["concepts"] = res
+			head = tx.run("match(c:Concepte)-[:is]->(m:Model{name:$model})<-[:concerne]-(a:Analyse{day:$date,time:$time})<-[:effected]-(u:User{name: $user}) "
 							"return c.pos,c.neg,c.pourPos,c.pourNeg ",user=user,date=date,time=time,model=model)
-		 	for record in head:
-		 		smart_phone["name"] = model
-		 		smart_phone["pos"] = record['c.pos']
-		 		smart_phone["neg"] = record['c.neg']
-		 		smart_phone["pourPos"] = record['c.pourPos']
-		 		smart_phone["pourNeg"] = record['c.pourNeg']
-		 	if result["concepts"] != [] and smart_phone != {}:
-		 		return smart_phone,result
-		 	else:
-		 		return False
+			for record in head:
+				smart_phone["name"] = model
+				smart_phone["pos"] = record['c.pos']
+				smart_phone["neg"] = record['c.neg']
+				smart_phone["pourPos"] = record['c.pourPos']
+				smart_phone["pourNeg"] = record['c.pourNeg']
+				f result["concepts"] != [] and smart_phone != {}:
+				return smart_phone,result
+			else:
+			return False
 		except Exception as e:
-		 	raise
+			raise
 	def loadresult(self,user,date,time,model):
 		with self._driver.session() as r:
 			return r.read_transaction(self.tx_loadmod,user,date,time,model)
@@ -301,27 +301,25 @@ if __name__ == '__main__':
 	client.createUser(user["name"],user["pwd"],user["ck"],user["cs"],user["act"],user["acs"])
 	print(client.load_user_mod("admin"))
 
-	 
-	 #client.importresult(user["name"],file,date,time,'Galaxy S8')
-	 #d = "2018-5-2"
-	 #t="10:19:30"
-	 #con= client.load_user_mod(user['name'])
-	 #print(con)
-	 #m = "Galaxy S8"
-	 #tel,concespts = client.loadresult('bob',d,t,m)
-	 
+	
+	#client.importresult(user["name"],file,date,time,'Galaxy S8')
+	#d = "2018-5-2"
+	#t="10:19:30"
+	#con= client.load_user_mod(user['name'])
+	#print(con)
+	#m = "Galaxy S8"
+	#tel,concespts = client.loadresult('bob',d,t,m)
+	
 
-	 #bob = client.allSignedUsers()
-	 #print(bob)
-	 #if bob["pwd"] == "2305":
-	 #	print("you re the boss bro ")
-	 #date = "2018-04-11"
-	 #client.import_result(path_s,"2018-4-11","Galaxy")	 
-	 #s= client.loadSmar("2018-4-11","Galaxy")
-	 #print(s)
-	 #client.import_tweets(file=path_t)	 
-	 #mydic = client.alltweet_list()
-	 #s = json.dumps({'tweets':[o.dump() for o in mydic]},indent=4)
-	 #print(s)
-=======
->>>>>>> bc3973d289672b9e2ea86d178d1c02fc1fc6bed6
+	#bob = client.allSignedUsers()
+	#print(bob)
+	#if bob["pwd"] == "2305":
+	#	print("you re the boss bro ")
+	#date = "2018-04-11"
+	#client.import_result(path_s,"2018-4-11","Galaxy")	 
+	#s= client.loadSmar("2018-4-11","Galaxy")
+	#print(s)
+	#client.import_tweets(file=path_t)	 
+	#mydic = client.alltweet_list()
+	#s = json.dumps({'tweets':[o.dump() for o in mydic]},indent=4)
+	#print(s)
