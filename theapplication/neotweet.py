@@ -10,9 +10,9 @@ import json
 def singleton(defined_class):
 		instances = {}
 		def get_instance(*arg,**kwargs):
-			 if defined_class not in instances:
+			if defined_class not in instances:
 			 	instances[defined_class] = defined_class(*arg, **kwargs)
-			 return instances[defined_class]
+			return instances[defined_class]
 		return get_instance
 @singleton
 class Neo4j(object):

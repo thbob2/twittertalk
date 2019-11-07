@@ -92,7 +92,7 @@ class Analyser():
             list1=mon_pickler.load()
             
         with open("docs/smar.json","r",encoding="utf-8") as f:
-             list2=json.load(f)
+            list2=json.load(f)
         for l in list1:
             for l1 in list2["concepts"]:
                 if(l["name"]==l1["name"]):
@@ -102,8 +102,8 @@ class Analyser():
                     l1["neg"]=l["neg"]
                     break
         with open("docs/smar.json","w",encoding="utf-8") as f:
-             string=json.dumps({"concepts":[o for o in list2["concepts"]]},indent=4)
-             f.write(string)
+            string=json.dumps({"concepts":[o for o in list2["concepts"]]},indent=4)
+            f.write(string)
 #########################################################################################################################################################################################################
     
     def influenceRec(self,concept,data):

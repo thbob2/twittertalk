@@ -1275,7 +1275,7 @@ class MyAcm(QDialog,Ui_Acm):
 				self.neo4j.updateTokens(user)
 				for obj,txt in tokens: 
 					self.validate(obj,"Token updated")
-				 
+				
 					#raise SigninErro('ERROR')
 
 			except Exception as te:
@@ -1543,8 +1543,8 @@ if __name__ == '__main__':
 	#window = MainWindow()
 	logapp = logingWindow()
 	user = {'name':"admin",
-	 		'pwd': "admin",	
-	 		'ck': "WouN94K3npYkZDHVpHGQDOwyl",
+			'pwd': "admin",	
+			ck': "WouN94K3npYkZDHVpHGQDOwyl",
 			'cs': "RQyYPzLRXOA5QMs5OnVP91wAYB4dSnTAd2X5dKXvIr4NKkWY3F",
 			'act': "295286840-5yd7qcXg1WfZplnrb78UYE2CKY1N1MZlLZdsMSSZ",
 			'acs': "E8QWRogAahyutRgdhsqcAdAhrHonzJtF8JLcPpBxylTu5"}
